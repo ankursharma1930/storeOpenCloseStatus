@@ -1,0 +1,19 @@
+{
+    "name": "amage/module-store",
+    "description": "Magento Open and Close Status for Store",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Ankur Sharma",
+            "email": "ankur.ank1230@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Amage\\Store\\": ""
+        }
+    }
+}
